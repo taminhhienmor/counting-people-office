@@ -3,7 +3,10 @@ Counting people
 
 ## Usage
 
-<p>Input command line ``` python PeopleCounter.py -i .\test.png ```</p>
+<p>Input command line below: </p>
+``` python 
+python PeopleCounter.py -i .\test.png 
+```
 
 ![people-test](https://cdn.jsdelivr.net/gh/taminhhienmor/counting-people-office/test.png)
 
