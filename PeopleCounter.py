@@ -27,7 +27,8 @@ def detector(image):
 def argsParser():
     ap = argparse.ArgumentParser()
     ap.add_argument("-i", "--image", default=None, help="path to images directory")
-    args = vars(ap.parse_args())
+    # args = vars(ap.parse_args())
+    args = {'image': 'test.png'}
 
     return args
 
