@@ -4,8 +4,11 @@ Counting people
 ## Usage
 
 <p>Input command line below: </p>
+
 ```
+
 python PeopleCounter.py -i .\test.png 
+
 ```
 
 ![people-test](https://cdn.jsdelivr.net/gh/taminhhienmor/counting-people-office/test.png)
