@@ -4,7 +4,7 @@ Counting people
 ## Usage
 
 <p>Input command line below: </p>
-``` python 
+``` node 
 python PeopleCounter.py -i .\test.png 
 ```
 
