@@ -57,17 +57,20 @@ def localDetect(image_path):
     cv2.destroyAllWindows()
 
     cv2.imwrite("result.png", np.hstack((clone, image)))
-    return (result, image)
+    # return (result, image)
+    return "Counting people: {}".format(index)
 
 def detectPeople(args):
     image_path = args["image"]
     if image_path != None:
         print("[INFO] Image path provided, attempting to read image")
-        (result, image) = localDetect(image_path)
+        # (result, image) = localDetect(image_path)
+        return localDetect(image_path)
 
 def main():
     args = argsParser()
-    detectPeople(args)
+    # detectPeople(args)
+    return detectPeople(args)
 
 if __name__ == '__main__':
     main()

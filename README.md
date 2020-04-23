@@ -7,7 +7,7 @@ Counting people
 
 ```
 
-python PeopleCounter.py -i .\test.png 
+python PeopleCounter.py -i test.png 
 
 ```
 
